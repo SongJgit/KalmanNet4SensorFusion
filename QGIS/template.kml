@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <!-- https://mapsme.zendesk.com/hc/en-us/articles/210133609-How-to-change-the-color-of-kml-tracks- -->
+    <Folder>
+      <name>Paths</name>
+      <Placemark>
+        <name>Estimation</name>
+        <styleUrl>#blueLine</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>relativeToGround</altitudeMode> 
+          <coordinates>
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ground Truth</name>
+        <styleUrl>#redLine</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>relativeToGround</altitudeMode> 
+          <coordinates>
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

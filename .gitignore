@@ -1,0 +1,12 @@
+*.pyc
+/__pycache__
+/wandb
+/.history
+*.png
+/runs
+*.egg-info
+*.csv
+*.log
+/.vscode
+/lightning_logs
+/output
