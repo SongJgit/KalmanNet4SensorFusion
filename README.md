@@ -27,9 +27,9 @@ python ./data/NCLT/preprocess.py
 1. Train.
 ```
 # KalmanNet
-python train.py --cfg ./configs/nclt/fusion/wheel_gpufusion_origin.py
+python train.py --cfg ./configs/nclt/fusion/wheel_gpsfusion_origin.py
 # Split KalmanNet
-python train.py --cfg ./configs/nclt/fusion/wheel_gpufusion_split.py
+python train.py --cfg ./configs/nclt/fusion/wheel_gpsfusion_split.py
 ```
 2. Inference.  
     Reference `nclt_predict.ipynb`
