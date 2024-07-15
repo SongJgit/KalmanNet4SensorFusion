@@ -1,7 +1,5 @@
 # KalmanNet_SensorFusion
 Practical Implementation of KalmanNet for Accurate Data Fusion in Integrated Navigation
-## Note 
-Remaining code will be provided upon acceptance of the paper.
 
 ## Flow Chart
 ![Flowchart](figs/Song1.png)
