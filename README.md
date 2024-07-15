@@ -41,3 +41,7 @@ Else if you want to plot your results:
 1. Using the code provided at the bottom of `nclt_predict.ipynb`, the coordinates are converted and saved into kml (Code is modified from https://github.com/AbhinavA10/mte546-project).
 2. Open QGIS and load vector(`xxx.kml`)
 
+## Thanks
+
+We are very grateful to the author of https://github.com/AbhinavA10/mte546-project which has inspired us a lot!
+ 
