@@ -10,7 +10,7 @@ test_path = './data/NCLT/processed/test.pt'
 val_path = './data/NCLT/processed/val.pt'
 val_path = [val_path]
 train_path = './data/NCLT/processed/train.pt'
-device = [7]
+device = [0]
 train_seq_len = 100
 batch_size = 256
 slide_win_size =100
@@ -34,7 +34,8 @@ metric = dict(
 logger = dict(
     project='new_exp',
     name=f'Wheel_GPS_l{train_seq_len}w{slide_win_size}step{detach_step}_split',
-    offline=False)
+    # offline=False)
+    offline=True)
 # logger = dict(project='Test', name='Wheel_GPS_rtk_l100w8', offline=True)
 optimizer = dict(type='Adam', lr=0.001, weight_decay=1e-4, schedule=False)
 
@@ -59,7 +60,7 @@ data = dict(
     test_dataset=test_dataset,
     batch_size=batch_size,
     shuffle=True,
-    num_workers=4,
+    num_workers=0,
     # test_seq_len=100,
     # train_seq_len=100,
     # val_seq_len=100,

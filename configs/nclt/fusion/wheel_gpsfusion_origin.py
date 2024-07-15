@@ -35,7 +35,8 @@ logger = dict(
     project='new_exp',
     name=  # noqa
     f'Wheel_GPS_l{train_seq_len}w{slide_win_size}step{detach_step}_origin',
-    offline=False)
+    # offline=False)
+    offline=True)
 # logger = dict(project='Test', name='test', offline=True)
 optimizer = dict(type='Adam', lr=0.001, weight_decay=1e-4, schedule=False)
 
@@ -60,7 +61,7 @@ data = dict(
     test_dataset=test_dataset,
     batch_size=batch_size,
     shuffle=True,
-    num_workers=4,
+    num_workers=0,
     # test_seq_len=100,
     # train_seq_len=100,
     # val_seq_len=100,
