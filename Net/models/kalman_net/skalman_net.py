@@ -195,7 +195,7 @@ class SplitKalmanNet(nn.Module):
         self.m1x_posterior_previous = self.m1x_posterior.detach().clone()
         self.m1x_posterior = m1x_posterior.detach().clone()
         self.m1x_prior_previous = m1x_prior.detach().clone()
-        self.observations_previous = y.detach().clone()
+        self.y_previous = y.detach().clone()
         assert not torch.any(torch.isnan(m1x_posterior))
         return m1x_posterior.clone()
 
