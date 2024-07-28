@@ -11,11 +11,12 @@ If you find the code useful, please consider citing our paper using the followin
   journal={IEEE Signal Processing Letters}, 
   title={Practical Implementation of KalmanNet for Accurate Data Fusion in Integrated Navigation}, 
   year={2024},
-  volume={},
+  volume={31},
   number={},
-  pages={1-5},
-  keywords={Training;Sensor fusion;Global Positioning System;Navigation;Vectors;Kalman filters;Wheels;Integrated navigation and localization;kalman filter;recurrent neural networks;sensor fusion},
+  pages={1890-1894},
+  keywords={Training;Sensor fusion;Global Positioning System;Navigation;Vectors;Kalman filters;Wheels;Integrated navigation and localization;Kalman filter;recurrent neural networks;sensor fusion},
   doi={10.1109/LSP.2024.3431443}}
+
 ```
 
 ## Flow Chart
