@@ -71,3 +71,7 @@ If you find the paper/code useful, please cite our paper using the following Bib
   doi={10.1109/LSP.2024.3431443}}
 
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SongJgit/KalmanNet4SensorFusion&type=Date)](https://www.star-history.com/#SongJgit/KalmanNet4SensorFusion&Date)
