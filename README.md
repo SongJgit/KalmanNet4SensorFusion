@@ -1,5 +1,8 @@
 # Practical Implementation of KalmanNet for Accurate Data Fusion in Integrated Navigation
 
+## Notice
+This repo will be merged into [filternet](https://github.com/SongJgit/filternet).
+
 ## Introduction
 
 [[Paper Link]](https://ieeexplore.ieee.org/document/10605082)
