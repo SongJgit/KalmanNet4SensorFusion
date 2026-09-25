@@ -60,6 +60,7 @@ We are very grateful to the author of https://github.com/AbhinavA10/mte546-proje
 ## Citation
 
 If you find the paper/code useful, please cite our paper using the following BibTeX entry.
+Please don't copy the style of the diagrams and formulas without citing the sources. Here, we will not specifically mention the paper published in a certain IEEE journal. The style of the figures and formulas in that paper is highly similar to that of this article, with a duplication rate of up to 80%, yet it does not cite this article.
 
 ```latex
 @ARTICLE{10605082,
